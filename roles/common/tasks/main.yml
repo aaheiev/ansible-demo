@@ -1,0 +1,7 @@
+---
+# tasks file for common
+- name: print timezone
+  debug: var=timezone
+#- name: "set timezone to {{ timezone }}"
+#  timezone:
+#    name: "{{ timezone }}"

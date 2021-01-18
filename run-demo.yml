@@ -1,0 +1,12 @@
+#!/usr/bin/env ansible-playbook
+---
+- hosts: all
+  vars_files:
+    - "vars/{{ env }}.yaml"
+  roles:
+    - common
+  tasks:
+    - debug: var=timezone
+    - debug: var=secret_env_var
+    - debug: var=layer
+    - ping:
