@@ -1,7 +1,8 @@
 # ansible-demo
 Manage configuration using ansible
 
-- [ ] 0. Initial ansible project with demo inventory
-    - [ ] Secrets
-    - [ ] Group vars
-    - [ ] Environments
+- [x] _0. Initial ansible project with demo inventory_
+    - [x] Secrets
+    - [x] Group vars
+    - [x] Environments
+- [ ] _1. Dynamic inventory_
